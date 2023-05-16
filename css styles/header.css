@@ -96,12 +96,12 @@ input.search-bar, textarea {
   justify-content: space-between;
   flex-shrink: 0;
   margin-right: 50px;
-
   position: relative;
 }
 
 .home-img {
   height: 28px;
+  margin-left: 35px;
 }
 
 .home-img:hover {
@@ -110,6 +110,7 @@ input.search-bar, textarea {
 
 .explore-img {
   height: 28px;
+  margin-left: 50px;
 }
 
 .explore-img:hover {
@@ -118,6 +119,7 @@ input.search-bar, textarea {
 
 .contact-img {
   height: 28px;
+  margin-left: 50px;
 }
 
 .contact-img:hover {
@@ -127,7 +129,7 @@ input.search-bar, textarea {
 @media (min-width: 600px) {
   
   body {
-    width: 100%;
+    width: 100vw;
   }
 
   .header {
@@ -140,7 +142,7 @@ input.search-bar, textarea {
 @media (min-width: 768px) {
   
   body {
-    width: 100%;
+    width: 100vw;
   }
 
   .header {
@@ -153,7 +155,7 @@ input.search-bar, textarea {
 @media (min-width: 992px) {
   
   body {
-    width: 100%;
+    width: 100vw;
   }
 
   .header {

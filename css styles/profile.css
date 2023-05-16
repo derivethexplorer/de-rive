@@ -206,3 +206,33 @@ p {
     margin: 0;
   }
 }
+
+  @media (min-width: 1200px) {
+  
+    body {
+      width: 100%;
+    }
+
+    .members {
+      width: 100vw;
+      margin-bottom: -10px;
+    }
+  
+    .profile {
+      display: grid;
+      margin-right: 50px;
+    }
+  
+    .main-profile-title-1 {
+      font-weight: 800;
+      font-size: 53px;
+      margin: 0;
+      margin-top: 40px;
+    }
+    
+    .main-profile-title-2 {
+      font-weight: 400;
+      font-size: 42px;
+      margin: 0;
+    }
+  }

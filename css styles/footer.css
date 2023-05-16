@@ -1,0 +1,31 @@
+.footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 40px;
+
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  width: 100%;
+
+  position: relative;
+  top: 80%;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-logo {
+  width: 48px;
+  cursor: pointer;
+}

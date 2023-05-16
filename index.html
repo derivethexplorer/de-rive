@@ -4,8 +4,11 @@
     <title>De Rive</title>
 
     <link rel="stylesheet" href="css styles/header.css">
+    <link rel="stylesheet" href="css styles/footer.css">
     <link rel="stylesheet" href="css styles/general.css">
     <link rel="stylesheet" href="css styles/homepage.css">
+    <link rel="stylesheet" href="css styles/profile.css">
+    <script src="script/script.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +30,7 @@
 
       <div class="header-right">
         <div class="header-home">
-          <img class="home-img" src="icons/home.png">
+          <img class="home-img" src="icons/home-hover.png">
         </div>
         
         <div class="header-explore">
@@ -41,8 +44,123 @@
     </div>
 
     <div class="homepage">
-      <div class="slide-image">
-        
+      <div class="slideshow">
+        <section aria-label="Slide Show">
+          <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8678</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8680</button>
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img src="pics/sumbergentong-slideshow 1.png" alt="Sumber Gentong 1">
+              </li>
+              <li class="slide">
+                <img src="pics/sumbergentong-slideshow 2.png" alt="Sumber Gentong 2">
+              </li>
+              <li class="slide">
+                <img src="pics/kalicemplung-slideshow 3.jpg" alt="Kali Cemplung">
+              </li>
+              <li class="slide">
+                <img src="pics/brawijaya-slideshow 1.jpg" alt="Museum Brawijaya 1">
+              </li>
+              <li class="slide">
+                <img src="pics/brawijaya-slideshow 2.jpg" alt="Museum Brawijaya 2">
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="slideshow-text">
+          <div class="slideshow-text-allignment">
+            <p class="slideshow-paragraph-first">DISCOVER</p>
+          </div>
+          <div class="slideshow-text-allignment">
+            <p class="slideshow-paragraph-special">HIDDEN GEMS</p>
+          </div>
+          <div class="slideshow-text-allignment">
+            <p class="slideshow-paragraph">OF MALANG</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <div class="profile-title">
+            <div class="profile-logo">
+              <img class="profile-logo-css" src="icons/logo derive.png">
+            </div>
+            <div class="profile-titleparent">
+              <div class="profile-title-child1">
+                <p class="main-profile-title-1">De Rive The Explorer</p>
+              </div>
+              <div class="profile-title-child2">
+                <p class="main-profile-title-2">Sobat Perjalananmu!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-group">
+            <img class="members" src="pics/members 2.png">
+          </div>
+
+          <div class="profile-visimisi">
+            <div class="profile-visi">
+              <div class="visi">
+                <p class="visi-title">VISI</p>
+              </div>
+              <div class="profile-visi-isi">
+                <p class="visi-isi">
+                  "Mempermudah wisatawan untuk memperoleh informasi dan memperkenalkan tempat wisata yang belum terekspos bersama dengan mewujudkan generasi yang memiliki skill berwirausaha di era globalisasi."
+                </p>
+              </div>
+            </div>
+
+            <div class="profile-misi">
+              <div class="misi">
+                <p class="misi-title">MISI</p>
+              </div>
+              <div class="profile-misi-isi">
+                <div class="misi-isi-satu">
+                  <p>
+                    Mengembangkan pusat informasi Dè Rive The Explorer di berbagai media usaha sehingga konsumen mendapatkan  informasi terlengkap dan terupdate
+                  </p>
+                </div>
+                <div class="misi-isi-dua">
+                  <p>
+                    Mencari dan mengenalkan tempat-tempat wisata yang belum terekspos di Malang sehingga dapat meningkatkan perekonomian warga Malang
+                  </p>
+                </div>
+                <div class="misi-isi-tiga">
+                  <p>
+                    Membangun usaha bersama dengan mengembangkan generasi yang memiliki skill wirausaha yang unggul
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-top">
+        <div class="footer-top-logo">
+          <img class="footer-logo" src="icons/whatsapp.png">
+        </div>
+        <div class="footer-top-logo">
+          <a href="https://www.instagram.com/derive.thexplorer" target="_blank">
+            <img class="footer-logo" src="icons/instagram.png">
+          </a>
+        </div>
+        <div class="footer-top-logo">
+          <a href="https://www.tiktok.com/@derive.thexplorer" target="_blank">
+            <img class="footer-logo" src="icons/tik-tok.png">
+          </a>
+        </div>
+        <div class="footer-top-logo">
+          <a href="https://mail.google.com/mail/u/?authuser=derive.fariwisata@gmail.com" target="_blank">
+            <img class="footer-logo" src="icons/email.png"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &#169; De Rive The Explorer. All rights reserved.</p>
       </div>
     </div>
   </body>

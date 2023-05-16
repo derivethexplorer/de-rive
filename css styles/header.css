@@ -26,6 +26,7 @@
   height: 80px;
   margin-top: 0px;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .header-middle {
@@ -121,4 +122,43 @@ input.search-bar, textarea {
 
 .contact-img:hover {
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .header {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .header {
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .header {
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 40px;
+  }
 }

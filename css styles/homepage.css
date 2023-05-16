@@ -1,8 +1,9 @@
 .homepage {
+  width: 1000px;
   margin: 0;
   margin-left: 0;
   display: grid;
-  grid-template-rows: auto;
+  grid-template-rows: max-content;
   row-gap: 20px;
 }
 
@@ -89,12 +90,12 @@
 
 .slideshow-text {
   display: inline-grid;
-  grid-template-rows: 100px 100px 100px;
-  grid-row-gap: 20px;
+  width: 100%;
+  grid-template-rows: 150px 150px 150px;
   position: absolute;
   z-index: 4;
 
-  top: 150px;
+  top: 120px;
 
   place-self: center;
   justify-content: center;
@@ -131,4 +132,45 @@
 
   background-color: black;
   color: white;
+}
+
+@media (min-width: 600px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .carousel {
+    margin-top: 52px;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .carousel {
+    margin-top: 52px;
+    height: 500px;
+    width: 1000px;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .carousel {
+    margin-top: 52px;
+    height: 600px;
+    position: relative;
+  }
 }

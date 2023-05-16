@@ -2,3 +2,33 @@ body {
   font-family: montserrat;
   margin: 0;
 }
+
+/* break points = <600px, 601px, 768px, 992px, 1200px */
+
+/* @media (min-width: 600px) {
+  
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  body {
+    width: 100%;
+  }
+} */

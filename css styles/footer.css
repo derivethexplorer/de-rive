@@ -8,7 +8,6 @@
   margin: 0;
   padding-bottom: 30px;
   padding-top: 50px;
-  width: 100%;
 
   position: relative;
   top: 80%;
@@ -28,4 +27,33 @@
 .footer-logo {
   width: 48px;
   cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .footer {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+    width: 100%;
+  }
+
+  .footer {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  body {
+    width: 100%;
+  }
 }

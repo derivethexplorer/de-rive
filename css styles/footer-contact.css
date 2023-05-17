@@ -1,0 +1,66 @@
+.contact {
+  margin-top: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  width: 100vw;
+  height: 800px;
+}
+
+.contact-top-text {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
+
+.contact-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.members {
+  width: 100vw;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  text-align: center;
+
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+
+@media (min-width: 600px) {
+  
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  
+  body {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  
+  body {
+    width: 100%;
+  }
+}
